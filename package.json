@@ -1,0 +1,24 @@
+{
+  "name": "dwayne-proxy",
+  "version": "1.0.0",
+  "description": "my proxy",
+  "author": "Dean Draper",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "server-dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+  }
+}
