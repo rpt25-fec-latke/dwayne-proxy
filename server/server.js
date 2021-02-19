@@ -27,7 +27,7 @@ app.get('/reviews', async (req, res) => {
     res.status(500).send(err);
   }
 });
-app.get('/reviews', async (req, res) => {
+app.get('/game_carousel_info', async (req, res) => {
   const id = req.query.id;
   try {
     const { data } = await axios.get(`http://3.137.75.100:3008/game_carousel_info/?id=${id}`);
